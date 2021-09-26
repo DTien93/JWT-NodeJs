@@ -5,5 +5,6 @@
  
  ###
 Run: npm run start(server)
-     npm run atuth(auth)
+
+ npm run atuth(auth)
 
