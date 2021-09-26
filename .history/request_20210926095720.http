@@ -1,0 +1,5 @@
+GET http://localhost:4000/posts
+
+# Check get API (Post)_
+
+POST  http://localhost:4000/login

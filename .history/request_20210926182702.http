@@ -1,0 +1,25 @@
+GET http://localhost:4000/posts
+Authorization: Bearerey JhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJWYW4gVGllbiIsImlhdCI6MTYzMjY1MTQyMiwiZXhwIjoxNjMyNjUxNDM3fQ.d3NJxyQGrn4S5_CPv2t5DEZTs-jDXBa7PYwBHZGijFs
+# Check get API (Post)_
+
+###
+POST  http://localhost:5000/login
+Content-Type:  application/json
+
+{
+    "username": "admin"
+}
+
+###
+
+POST http://localhost:5000/token
+Content-Type: application/json
+
+{
+        "refreshToken": " JhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJWYW4gVGllbiIsImlhdCI6MTYzMjY1MTQyMiwiZXhwIjoxNjMyNjUxNDM3fQ.d3NJxyQGrn4S5_CPv2t5DEZTs-jDXBa7PYwBHZGijFs"
+}
+
+###
+DELETE http://localhost:5000/logout
+
+
